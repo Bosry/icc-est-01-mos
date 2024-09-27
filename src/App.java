@@ -6,5 +6,8 @@ public class App {
         int[] arreglo = new int[] {10,5,8,2,0};
         int[] arregloOr = mo.sortBySelection(arreglo);
         mo.printArreglo(arregloOr);
+        System.out.println();
+        int[] arregloOrDes = mo.sortBySelectionDes(arreglo);
+mo.printArregloDes(arregloOrDes);
     }
 }
