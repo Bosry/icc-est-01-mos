@@ -26,12 +26,11 @@ class MetodosOrdenamiento {
     public void printArreglo(int[] arreglo) {
 
         int[] numeros = arreglo;
-        int tamanio = arreglo.length;
 
         for (int i = 0; i < numeros.length; i++) {
 
             int elemento = numeros[i];
-            System.out.print(" " + elemento + " ");
+            System.out.print(elemento + " ");
 
         }
     }
@@ -62,14 +61,14 @@ class MetodosOrdenamiento {
     public void printArregloDes(int[] arreglo) {
 
         int[] numeros = arreglo;
-        int tamanio = arreglo.length;
 
         for (int i = 0; i < numeros.length; i++) {
 
             int elemento = numeros[i];
-            System.out.print(" " + elemento + " ");
+            System.out.print(elemento + " ");
 
         }
     }
     
 }
+
